@@ -1,0 +1,151 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box !important;
+  /* scroll-behavior: smooth; */
+    
+    
+}
+
+a {
+  color: #21759b;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.borderPrimary{
+  outline: #21759b !important;
+  outline-width: 3px !important;
+}
+.borderPrimary{
+  outline: 3px solid #21759b !important;
+}
+.btn:focus{
+  outline:none !important;
+}
+.btn:active{
+  outline: none !important;
+}
+.container{
+  padding-top: 16px;
+}
+code{
+color:black;  
+}
+/* tab fix */
+.tab-content {
+  display: flex;
+}
+.btn-light-active{
+  background-color: #e2e6ea;
+}
+
+.tab-content > .tab-pane {
+  display: block; /* undo "display: none;" */
+  visibility: hidden;
+  margin-right: -100%;
+  width: 100%;
+}
+
+.tab-content > .active {
+  visibility: visible;
+}
+
+.styleBold{
+  font-weight: bold !important;
+}
+.styleItalic{
+  font-style: italic !important;
+}
+.styleUnderline{
+  text-decoration: underline !important;
+}
+.styleStrikethrough{
+  text-decoration: line-through !important;
+}
+.styleUnderlineStrikethrough{
+  text-decoration: underline line-through !important;
+}
+
+.carouselContainer{
+  padding:8px 16vw ;
+}
+.carousel-item{
+  text-align: center !important;
+}
+
+.borderActive{
+  border-width: 3px !important;
+  border-color: black !important;
+  box-shadow: black 0.5px !important;
+}
+.opacityHalf{
+  opacity:0.5 !important;
+}
+.bg-white{
+  background-color: white;
+}
+.bg-transparent{
+  background-color: transparent;
+}
+.bg-primary-x{
+  background-color: #21759b !important;
+}
+.btn-primary-x{
+  background-color: #21759b !important;
+  border-color: #21759b !important;
+  color:white !important;
+}
+.btn-primary-x:hover{
+  background-color: #1a5e7c !important;
+  border-color: #1a5e7c !important
+}
+.bg-checkered{
+ background: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 
+ 50% / 8px 8px !important;
+}
+.bg-rainbow{
+  background: linear-gradient(to right, red,orange,yellow,green,blue,violet) !important;
+}
+.btn-transparent{
+  background-color: transparent;
+}
+.zIndex5{
+  z-index: 5;
+}
+.resizeNone{
+  resize: none !important;
+  overflow:hidden !important;
+}
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .content .header {
+        width: 100%;
+        height: 50px;
+        position: sticky;
+        top: 0;
+      }
+      .content {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(70deg, orange, crimson);
+      }
