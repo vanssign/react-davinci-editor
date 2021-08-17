@@ -4,6 +4,10 @@
   "description": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanssign/react-davinci-editor.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
