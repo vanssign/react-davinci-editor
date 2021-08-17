@@ -1,13 +1,20 @@
 {
   "name": "react-davinci-editor",
   "version": "1.0.6",
-  "description": "",
+  "description": "Easy to integrate WYSIWYG editor for your react firebase app",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanssign/react-davinci-editor.git"
   },
+  "keywords": [
+    "react",
+    "firebase",
+    "WYSIWYG",
+    "react-bootstrap",
+    "bootstrap"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
