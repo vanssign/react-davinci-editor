@@ -19,6 +19,12 @@ export function BlogPostBuilder({ BlogId, FirebaseConfig }) {
     useEffect(() => {
         fetchBlog()
     })
+    useEffect(() => {
+        if(PostData) {
+        document.title = PostData.pageInfo.title
+        }
+    }, [PostData]);
+
     return (
         <div className="container-fluid py-2">
             <div className="row py-3">
