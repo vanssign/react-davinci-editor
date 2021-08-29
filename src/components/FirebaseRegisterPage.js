@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FirebaseInitialisation } from '../functions/FirebaseFunctions';
-
+import 'firebase/auth';
 export default function FirebaseRegisterPageBuilder({ FirebaseConfig }) {
     
     const fire = FirebaseInitialisation(FirebaseConfig);

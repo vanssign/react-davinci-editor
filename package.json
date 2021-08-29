@@ -1,6 +1,6 @@
 {
   "name": "react-davinci-editor",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Easy to integrate WYSIWYG editor package for your react firebase app",
   "main": "cjs/index.js",
   "module": "esm/index.js",

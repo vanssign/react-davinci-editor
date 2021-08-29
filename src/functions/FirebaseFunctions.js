@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 export function FirebaseInitialisation(FirebaseConfig) {
     try {
         firebase.initializeApp(FirebaseConfig);
@@ -8,17 +8,4 @@ export function FirebaseInitialisation(FirebaseConfig) {
         }
     }
     return firebase;
-}
-
-export async function FirebaseFetchAllBlogs() {
-    var allPostsData = [];
-    const blogsRef = fire.firestore().collection('blog')
-    const snapshot = await blogsRef.get();
-    snapshot.forEach(doc => {
-        allPostsData.push({
-            id: doc.id,
-            ...doc.data()
-        })
-    });
-    return allPostsData;
 }

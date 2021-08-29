@@ -1,4 +1,5 @@
 import { FirebaseInitialisation } from '../functions/FirebaseFunctions';
+import 'firebase/firestore';
 import PageHTML from './PageHTML';
 import React, { useState, useEffect } from 'react';
 export function BlogPostBuilder({ BlogId, FirebaseConfig }) {

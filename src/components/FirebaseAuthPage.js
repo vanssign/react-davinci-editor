@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FirebaseLoginPageBuilder from './FirebaseLoginPage';
 import FirebaseRegisterPageBuilder from './FirebaseRegisterPage';
+import 'firebase/auth';
 
 export default function FirebaseAuthPageBuilder({ FirebaseConfig, RegisterationAllowed }) {
     const [PageType, setPageType] = useState("login");
